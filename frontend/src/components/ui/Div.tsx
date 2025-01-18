@@ -1,6 +1,6 @@
-import type {FC, DetailedHTMLProps, HTMLAttributes, PropsWithChildren} from 'react'
-import type { WidthHeight } from './WidthHeight'
+import type { DetailedHTMLProps, HTMLAttributes, PropsWithChildren } from 'react'
 import type { LeftRightTopBottom } from './LeftRightTopBottom'
+import type { WidthHeight } from './WidthHeight'
 
 export type ReactDivProps = DetailedHTMLProps<
   HTMLAttributes<HTMLDivElement>,
@@ -11,15 +11,15 @@ export type DivProps = ReactDivProps &
   LeftRightTopBottom & {
     src?: string
   }
-
-export const Div: FC<DivProps> = ({
+  
+export const Div = ({
   width, height, style: _sytle, src, className: _className,
   left, right, top, bottom, ...props
-}) => {
+}: DivProps ) => {
   const style = {
     ..._sytle, width, height, backgroundImage: src && `url(${src})`,
     left, right, top, bottom
   }
-  const className = ['box-sizing', src && 'bg-gray-300', _className].join(' ')
+  const className = ['box-sizing', src && 'bg-baseGray', _className].join(' ')
   return <div {...props} className={className} style={style} />
 }
