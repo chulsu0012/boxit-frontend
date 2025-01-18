@@ -1,4 +1,4 @@
-import { useEffect } from "node_modules/@types/react"
+import { useEffect } from "react"
 
 export const useInterval = (callback: () => void, duration: number = 4000) => {
   useEffect(() => {
