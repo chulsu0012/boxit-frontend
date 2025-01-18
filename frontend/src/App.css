@@ -5,3 +5,11 @@ body {
   background-color: #F2F5F4;
   font-family: 'Pretendard', sans-serif;
 }
+
+.page-layout {
+  @apply flex items-stretch justify-center h-screen
+}
+
+.horizontal-equal-layout {
+  @apply flex items-center justify-center flex-1
+}
