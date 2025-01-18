@@ -1,11 +1,11 @@
 import type { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
 
-export type ReactButtonProps = DetailedHTMLProps<
+type ReactButtonProps = DetailedHTMLProps<
   ButtonHTMLAttributes<HTMLButtonElement>,
   HTMLButtonElement
 >
 
-export type ButtonProps = ReactButtonProps & {}
+type ButtonProps = ReactButtonProps & {}
 
 export const Button = ({
   className: _className,

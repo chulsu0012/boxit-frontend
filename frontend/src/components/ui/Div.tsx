@@ -2,11 +2,11 @@ import type { DetailedHTMLProps, HTMLAttributes, PropsWithChildren } from 'react
 import type { LeftRightTopBottom } from './LeftRightTopBottom'
 import type { WidthHeight } from './WidthHeight'
 
-export type ReactDivProps = DetailedHTMLProps<
+type ReactDivProps = DetailedHTMLProps<
   HTMLAttributes<HTMLDivElement>,
   HTMLDivElement
 >
-export type DivProps = ReactDivProps &
+type DivProps = ReactDivProps &
   PropsWithChildren<WidthHeight> & 
   LeftRightTopBottom & {
     src?: string
