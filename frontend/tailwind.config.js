@@ -6,7 +6,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        baseGray: '#F2F5F4'
+        baseWhite: '#F2F5F4',
+        baseGray: '#C0C4C5',
+        baseBlack: '#040811'
       }
     },
   },
