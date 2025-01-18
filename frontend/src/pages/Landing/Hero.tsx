@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/Button"
 import { Div } from "@/components/ui/Div"
-import  logo  from "../../assets/landing/react.svg"
+import  logo  from "../../assets/react.svg"
 import { Link } from "react-router-dom"
 
 export default function Hero() {
