@@ -3,16 +3,17 @@ import { Div } from "@/components/ui/Div"
 import  logo  from "../../assets/react.svg"
 import { Link } from "react-router-dom"
 import { Img } from "@/components/ui/Img"
+import { Text01 } from "@/components/ui/Texts"
 
 export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <Div>
-        <p className="text-2xl text-center select-none">
-        매일매일 실천하는 하루 플래너
-        </p>
+        <Text01>
+          매일매일 실천하는 하루 플래너
+        </Text01>
       </Div>
-      <Img
+      <Img 
         src={logo}
         alt="BoxIt Logo"
         className="w-[24rem] h-[9rem] mt-4 mb-8"
