@@ -1,5 +1,5 @@
 import { images } from "../../data/TempPath"
-import { Carousel } from "@/components/ui/Carousel"
+import { Carousel } from "./Carousel"
 
 export default function Banner() {
   return (

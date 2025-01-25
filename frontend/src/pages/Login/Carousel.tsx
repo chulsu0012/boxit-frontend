@@ -1,7 +1,7 @@
+import { Img } from "@/components/ui/Img";
 import { useInterval } from "@/hooks/useInterval";
 import { useCarouselStore } from "@/store/CarouselStore";
 import { LiaChevronCircleLeftSolid, LiaChevronCircleRightSolid } from "node_modules/react-icons/lia";
-import { Img } from "./Img";
 
 type CarouselProps = { 
   images: string[]
