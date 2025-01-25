@@ -14,7 +14,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Navigate to={currentPage} />} />
           <Route path="/landing" element={<LandingPage />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/user/login" element={<LoginPage />} />
         </Routes>
       </Router>
     </div>
