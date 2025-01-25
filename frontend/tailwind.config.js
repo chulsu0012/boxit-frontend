@@ -8,7 +8,8 @@ export default {
       colors: {
         baseWhite: '#F2F5F4',
         baseGray: '#C0C4C5',
-        baseBlack: '#040811'
+        baseBlack: '#040811',
+        baseOrange: '#FF7918',
       }
     },
   },
