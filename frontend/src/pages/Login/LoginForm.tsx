@@ -42,7 +42,8 @@ export default function LoginForm() {
         <Button
         disabled={!isFormValid}
         className={
-          `${
+          `text-white
+          ${
             !isFormValid
             ? 'bg-baseGray'
             : 'bg-baseOrange hover:bg-baseOrange'
