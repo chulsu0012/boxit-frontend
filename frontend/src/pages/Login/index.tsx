@@ -3,7 +3,7 @@ import LoginForm from "./LoginForm";
 
 export default function LoginPage() {
   return (
-    <div className="page-layout">
+    <div className="bg-white page-layout">
       <section className="horizontal-equal-layout">
         <Banner/>
       </section>
