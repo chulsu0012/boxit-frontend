@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import JoinButton from "./JoinArea";
 import LoginForm from "./LoginForm";
 
 export default function LoginPage() {
@@ -7,8 +8,12 @@ export default function LoginPage() {
       <section className="horizontal-equal-layout">
         <Banner/>
       </section>
-      <section className="horizontal-equal-layout">
-        <LoginForm/>
+      <section className="flex flex-col horizontal-equal-layout">
+        <div className="px-5 w-96">
+          <LoginForm/>
+          <hr className="my-10"/>
+          <JoinButton/>
+        </div>
       </section>
     </div>
   )

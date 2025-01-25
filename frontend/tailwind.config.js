@@ -10,6 +10,7 @@ export default {
         baseGray: '#C0C4C5',
         baseBlack: '#040811',
         baseOrange: '#FF7918',
+        baseBlue: '#74B1C5',
       }
     },
   },
