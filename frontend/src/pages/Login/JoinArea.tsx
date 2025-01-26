@@ -4,7 +4,7 @@ import { Link } from "node_modules/react-router-dom/dist";
 
 export default function JoinButton () {
   return (
-    <div className="flex-col w-full horizontal-layout">
+    <div className="flex-col w-full horizontal-equal">
       <Text02 className="text-baseBlue">
         아직 회원이 아니신가요?
       </Text02>
