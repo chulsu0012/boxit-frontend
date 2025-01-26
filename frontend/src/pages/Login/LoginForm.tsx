@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/form/Input";
-import { Title01 } from "@/components/ui/Texts";
+import { Desc01, Title01 } from "@/components/ui/Texts";
 import { useState } from "react";
 import { Link } from "node_modules/react-router-dom/dist";
 
@@ -55,7 +55,9 @@ export default function LoginForm() {
       </Link>
       <div className="flex justify-end w-full mt-5 underline text-baseGray ">
         <Link to="/user/find-password">
-        비밀번호 찾기
+          <Desc01>
+            비밀번호 찾기
+          </Desc01>
         </Link>
       </div>
     </div>
