@@ -13,7 +13,7 @@ export const Button = ({
 
   const className = [
     _className,
-    'w-full h-16 text-xl font-bold rounded-lg',
+    'h-16 text-xl font-bold rounded-lg select-none',
   ]
   .filter(Boolean)
   .join(' ');

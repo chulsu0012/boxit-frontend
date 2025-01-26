@@ -20,7 +20,7 @@ export default function Hero() {
       />
       <Div className="w-80">
         <Link to="/user/login">
-          <Button className="h-16 text-2xl text-white rounded-lg bg-baseOrange hover:bg-baseOrange">
+          <Button className="w-full text-white bg-baseOrange hover:bg-baseOrange">
             시작하기
           </Button>
         </Link>

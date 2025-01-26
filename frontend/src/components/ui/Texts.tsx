@@ -65,7 +65,7 @@ export const Text01 = ({
   const className = [
     _className,
     lineclamp,
-    'text-2xl font-medium text-center select-none'
+    'text-2xl font-medium select-none'
   ]
   .filter(Boolean)
   .join(' ')
@@ -89,7 +89,7 @@ export const Text02 = ({
   const className = [
     _className,
     lineclamp,
-    'text-xl font-bold text-center select-none'
+    'text-xl font-bold select-none'
   ]
   .filter(Boolean)
   .join(' ')
@@ -101,7 +101,6 @@ export const Text02 = ({
     />
   )
 }
-
 
 type Desc01Props = ReactTextProps & {
   lineclamp?: number
@@ -114,7 +113,7 @@ export const Desc01 = ({
   const className = [
     _className,
     lineclamp,
-    'text-sm font-medium text-center select-none'
+    'text-sm font-medium select-none'
   ]
   .filter(Boolean)
   .join(' ')
@@ -126,3 +125,28 @@ export const Desc01 = ({
     />
   )
 }
+
+type LabelProps = ReactTextProps & {
+  lineclamp?: number
+}
+
+export const Label = ({
+  className: _className, lineclamp, ...props
+}: LabelProps ) => {
+  
+  const className = [
+    _className,
+    lineclamp,
+    'text-2xl font-bold select-none'
+  ]
+  .filter(Boolean)
+  .join(' ')
+
+  return (
+    <p
+    {...props}
+    className={className}
+    />
+  )
+}
+

@@ -18,7 +18,7 @@ export const Input = ({
   
   const className = [
     _className,
-    'block pl-7 py-5 w-full h-16',
+    'pl-7 py-5 w-full h-16',
     'border border-baseGray rounded-lg bg-white',
     'focus:outline-none focus:border-baseBlack',
     'placeholder-baseGray text-xl font-bold'
@@ -27,15 +27,13 @@ export const Input = ({
   .join(' ')
 
   return (
-    <div className="flex flex-col items-center justify-center">
-      <input 
-      type={type}
-      name={name}
-      placeholder={placeholder}
-      value={value}
-      className={className}
-      {...props}
-      />
-    </div>
+    <input 
+    type={type}
+    name={name}
+    placeholder={placeholder}
+    value={value}
+    className={className}
+    {...props}
+    />
   )
 }

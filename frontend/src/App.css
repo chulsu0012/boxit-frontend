@@ -13,3 +13,11 @@ body {
 .horizontal-equal {
   @apply flex items-center justify-center flex-1
 }
+
+.box-shadow {
+  @apply bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.1)]
+}
+
+.box-layout {
+  @apply w-full rounded-xl mx-[10px] pt-[60px] pb-[50px] px-[70px]
+}

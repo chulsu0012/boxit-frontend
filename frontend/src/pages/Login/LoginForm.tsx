@@ -45,7 +45,7 @@ export default function LoginForm() {
         type="submit"
         disabled={!isFormValid}
         className={
-          `text-white
+          `w-full text-white
           ${
             !isFormValid
             ? 'bg-baseGray'

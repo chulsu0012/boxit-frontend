@@ -10,7 +10,7 @@ export default function JoinButton () {
       </Text02>
       <Link to="/user/create" className="w-full">
         <Button
-        className="my-5 border border-baseBlue text-baseBlue"
+        className="w-full my-5 border border-baseBlue text-baseBlue"
         >
           회원가입하기          
         </Button>
