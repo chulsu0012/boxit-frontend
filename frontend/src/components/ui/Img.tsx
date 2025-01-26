@@ -15,7 +15,6 @@ export const Img = ({
   const [hasError, setHasError] = useState(false)
 
   const className = [
-    'bg-baseWhite',
     'select-none',
     _className
   ]
