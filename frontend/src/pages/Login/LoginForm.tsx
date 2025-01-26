@@ -28,6 +28,7 @@ export default function LoginForm() {
         placeholder="아이디"
         type="text"
         value={formData.id}
+        className="mb-5"
         onChange={handleInputChange}
         required
         />      
@@ -36,6 +37,7 @@ export default function LoginForm() {
         placeholder="비밀번호"
         type="password"
         value={formData.user_pwd}
+        className="mb-5 "
         onChange={handleInputChange}
         required
         />      

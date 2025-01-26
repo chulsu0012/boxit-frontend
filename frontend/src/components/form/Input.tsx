@@ -18,7 +18,7 @@ export const Input = ({
   
   const className = [
     _className,
-    'mb-5 block pl-7 py-5 w-full h-16',
+    'block pl-7 py-5 w-full h-16',
     'border border-baseGray rounded-lg bg-white',
     'focus:outline-none focus:border-baseBlack',
     'placeholder-baseGray text-xl font-bold'
