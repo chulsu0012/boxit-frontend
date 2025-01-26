@@ -9,7 +9,7 @@ export default function LoginPage() {
         <Banner/>
       </section>
       <section className="flex flex-col horizontal-equal-layout">
-        <div className="px-5 w-96">
+        <div className="px-3 w-96">
           <LoginForm/>
           <hr className="my-10"/>
           <JoinButton/>
