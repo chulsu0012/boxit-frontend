@@ -11,6 +11,7 @@ export default {
         baseBlack: '#040811',
         baseOrange: '#FF7918',
         baseBlue: '#74B1C5',
+        errorRed: '#E00004',
       }
     },
   },
