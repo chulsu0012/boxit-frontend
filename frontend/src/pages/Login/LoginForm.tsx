@@ -18,7 +18,7 @@ export default function LoginForm() {
   const isFormValid = formData.id.trim() && formData.user_pwd.trim()
   
   return (
-    <div className="flex flex-col items-center justify-center w-full">
+    <div className="flex-col w-full horizontal-layout">
       <Title01 className="mb-7">
         로그인
       </Title01>

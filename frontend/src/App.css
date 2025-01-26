@@ -10,6 +10,6 @@ body {
   @apply flex items-stretch justify-center h-screen
 }
 
-.horizontal-equal-layout {
+.horizontal-layout {
   @apply flex items-center justify-center flex-1
 }
