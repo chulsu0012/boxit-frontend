@@ -7,7 +7,7 @@ import logo from "../../assets/react.svg"
 
 export default function Hero() {
   return (
-    <div className="flex-col h-screen horizontal-eqaul">
+    <div className="flex-col h-screen horizontal-equal">
       <Div>
         <Text01>
         매일매일 실천하는 하루 플래너
