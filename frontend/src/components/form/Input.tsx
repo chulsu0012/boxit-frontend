@@ -1,7 +1,7 @@
-import { DetailedHTMLProps, HTMLAttributes } from "node_modules/@types/react"
+import { DetailedHTMLProps, InputHTMLAttributes } from "node_modules/@types/react"
 
 type ReactInputProps = DetailedHTMLProps<
-  HTMLAttributes<HTMLInputElement>,
+  InputHTMLAttributes<HTMLInputElement>,
   HTMLInputElement
 >
 

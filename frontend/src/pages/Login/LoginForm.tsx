@@ -22,13 +22,14 @@ export default function LoginForm() {
       <Title01 className="mb-7">
         로그인
       </Title01>
-      <form className="w-full">
+      <form className="w-full" action="/api/user/login" method="POST">
         <Input
         name="id"
         placeholder="아이디"
         type="text"
         value={formData.id}
         onChange={handleInputChange}
+        required
         />      
         <Input
         name="user_pwd"
@@ -36,10 +37,10 @@ export default function LoginForm() {
         type="password"
         value={formData.user_pwd}
         onChange={handleInputChange}
+        required
         />      
-      </form>
-      <Link to={"/api/user/login"} className="w-full">
         <Button
+        type="submit"
         disabled={!isFormValid}
         className={
           `text-white
@@ -52,11 +53,11 @@ export default function LoginForm() {
         >
           로그인하기
         </Button>
-      </Link>
+      </form>
       <div className="flex justify-end w-full mt-5 underline text-baseGray ">
         <Link to="/user/find-password">
           <Desc01>
-            비밀번호 찾기
+        비밀번호 찾기
           </Desc01>
         </Link>
       </div>
