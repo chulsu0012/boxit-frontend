@@ -36,3 +36,40 @@ export const Img = ({
     />
   )
 }
+
+type ProfileImgProps = ReactImageProps & {
+  src?: string
+  size?: number | string
+}
+
+export const ProfileImg = ({
+  src, size="100%", className: _className
+}: ProfileImgProps) => {
+
+  const className = [
+    _className,
+    'select-none rounded-full bg-baseWhite border-none',
+  ]
+  .filter(Boolean)
+  .join(' ')
+
+  const dimension = typeof size === "number" ? `${size}px` : size;
+
+  return src ? (
+    <div
+    style={{ minWidth: dimension, minHeight: dimension }}
+    >
+      <img
+      src={src}
+      draggable={false}
+      className={className}
+      />
+    </div>
+  ) : (
+    <div
+    className={className}
+    style={{ minWidth: dimension, minHeight: dimension }}
+    >
+    </div>
+  )
+}

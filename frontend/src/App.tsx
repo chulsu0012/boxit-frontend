@@ -19,6 +19,8 @@ const App: React.FC = () => {
           <Route path="/user/login" element={<LoginPage />} />
           <Route path="/user/create" element={<JoinPage />} />
           <Route path="/user/find-password" element={<FindPasswordPage />} />
+          {/* <Route path="/user/profile" element={<FindPasswordPage />} /> */}
+          {/* <Route path="/main" element={<FindPasswordPage />} /> */}
         </Routes>
       </Router>
     </div>

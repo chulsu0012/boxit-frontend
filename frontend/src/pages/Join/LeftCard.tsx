@@ -4,7 +4,7 @@ import { Desc01, Label } from "@/components/ui/Texts";
 
 export default function LeftBox() {
   return (
-    <div className="box-shadow box-layout">
+    <div className="block box-shadow box-layout">
       <div className="w-full mb-[50px]">
         <Label className="mb-[10px]">
           아이디<span className="text-errorRed">*</span>
@@ -65,7 +65,7 @@ export default function LeftBox() {
         />
       </div>
       <div
-      className="float-right justify-items-end"
+      className="float-right mt-auto ml-auto"
       >
         <Desc01
         className="text-errorRed"
